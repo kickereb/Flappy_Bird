@@ -28,7 +28,7 @@ PImage bg;
       }
     }
     public void draw(){
-      bg = loadImage("sky2.jpg");
+      bg = loadImage("BG.png");
       background(bg);
       if(end){
       b.move();
